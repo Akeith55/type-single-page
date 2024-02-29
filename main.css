@@ -1,16 +1,16 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff"),
-        url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.ttf') format('truetype');
+    src: url("fonts/Eurocat-Medium.woff") format("woff"),
+         url('fonts/Eurocat-Medium.otf') format("truetype"),
+        url('fonts/Eurocat-Medium.woff2') format('woff2');
 
-    font-family: 'Forma';
+    font-family: 'Eurocat';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
     background-color: lightsteelblue;
-    font-family: 'Forma';
+    font-family: 'Eurocat';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
