@@ -1,3 +1,4 @@
+
 @font-face {
     src: url("fonts/Eurocat-Medium.woff") format("woff"),
          url('fonts/Eurocat-Medium.otf') format("truetype"),
@@ -9,7 +10,8 @@
     }
     
     body{
-    background-image: "TrINA.png";
+    background-color: "TrINA.png";
+    background-color: #7e7ece;
     font-family: 'Eurocat';
 
     .paragraphs {
@@ -21,25 +23,29 @@
         margin-right: 10px; /* Adjust as needed */
       }
       
-      .font1 {
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
-
-        }
-      }
-      
+      .font3 {
+        font-family: 'Eurocat-Regular';
+        src: url("fonts/Eurocat-Regular.woff") format("woff"),
+             url('fonts/Eurocat-Regular.otf') format("truetype"),
+            url('fonts/Eurocat-Regular.woff2') format('woff2');
+            color:antiquewhite
+    }
       .font2 {
-        @font-face {
-            src: url("fonts/EurocatBase-Regular.woff") format("woff"),
-                 url('fonts/EurocatBase-Regular.otf') format("truetype"),
-                url('fonts/EurocatBase-Regular.woff2') format('woff2');
+        font-family: 'EurocatSans-Regular';
+        src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+             url('fonts/EurocatSans-Regular.otf') format("truetype"),
+            url('fonts/EurocatSans-Regular.woff2') format('woff2');
+            color:antiquewhite
         }
         }
     
-      .font3 {
-        @font-face {
-        src: url("fonts/EurocatSans-Regular.woff") format("woff"),
-             url('fonts/EurocatSans-Regular.otf') format("truetype"),
-            url('fonts/EEurocatSans-Regular.woff2') format('woff2');
+      .font1 {
+        font-family: 'EurocatBase-Regular';
+        src: url("fonts/EurocatBase-Regular.woff") format("woff"),
+             url('fonts/EurocatBase-Regular.otf') format("truetype"),
+            url('fonts/EurocatBase-Regular.woff2') format('woff2');
+        color:antiquewhite
+        
         }
         }
 
@@ -148,6 +154,49 @@ h1{
     grid-area: f;
 }
 
+#fontdisplay {
+    padding: 0em 11em;
+}
 
-  
+.paragraphs > p {
+    text-align:justify;
+    margin: 0em 3em;
+}
 
+.variations {
+    font-family: 'EurocatSans-Regular';
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+         url('fonts/EurocatSans-Regular.otf') format("truetype"),
+        url('fonts/EurocatSans-Regular.woff2') format('woff2');
+        color:#000084
+
+}
+.history {
+    font-family: 'EurocatSans-Regular';
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+         url('fonts/EurocatSans-Regular.otf') format("truetype"),
+        url('fonts/EurocatSans-Regular.woff2') format('woff2');
+        color:antiquewhite
+}
+.history2 {
+    font-family: 'EurocatSans-Regular';
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+         url('fonts/EurocatSans-Regular.otf') format("truetype"),
+        url('fonts/EurocatSans-Regular.woff2') format('woff2');
+        color:antiquewhite
+}
+
+.history > p {
+    text-align:justify;
+    margin: 0em 3em;
+    padding: 3em 0em;
+}
+
+.history2 > p {
+    text-align:justify;
+    margin: 0em 3em;
+}
+
+
+
+        
