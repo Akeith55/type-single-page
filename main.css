@@ -184,18 +184,71 @@ h1{
          url('fonts/EurocatSans-Regular.otf') format("truetype"),
         url('fonts/EurocatSans-Regular.woff2') format('woff2');
         color:antiquewhite
+        
 }
-
-.history > p {
+.stuff{
+font-family: 'EurocatSans-Regular';
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
+         url('fonts/EurocatSans-Regular.otf') format("truetype"),
+        url('fonts/EurocatSans-Regular.woff2') format('woff2');
+        color:antiquewhite
+}
+.stuff > p {
     text-align:justify;
     margin: 0em 3em;
-    padding: 3em 0em;
+    padding: 0em 2em;
 }
 
-.history2 > p {
-    text-align:justify;
-    margin: 0em 3em;
+.Eurocat Title {
+    font-family: 'EurocatBase-Regular';
+    src: url("fonts/EurocatBase-Regular.woff") format("woff"),
+         url('fonts/EurocatBase-Regular.otf') format("truetype"),
+        url('fonts/EurocatBase-Regular.woff2') format('woff2');
+            color: white
 }
+
+.Eurcat Title{
+    font-weight:1 ;
+    height:100vh;
+    font-size: 10em;
+    display:grid;
+    place-content: center;
+    margin: 0;
+    text-align: center;
+    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+    transition: 
+        font-weight 500ms,
+        font-variation-settings 3s;
+
+}
+
+
+h5{
+            font-weight:100; 
+            text-align: center;
+            font-size: 8em;
+            animation: weightChange 5s infinite;
+            color: white
+            
+        }
+        
+        @keyframes weightChange {
+            0%, 100%{
+                font-weight:100;
+            }
+            50%{font-weight:700;
+                color: blue;
+               
+            }
+            
+            
+}
+
+
+
+
+    }
+
 
 
 
